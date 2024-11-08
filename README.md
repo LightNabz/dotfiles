@@ -55,16 +55,11 @@ cp -r .config/gnome-shell ~/.config/
 ## Additional
 
 ### Wallpaper
-```bash
-Later
-```
+[Background](./backgrounds)
 
 ### VS Code
-```bash
-Later
-```
+[Check here](https://marketplace.visualstudio.com/items?itemName=Siris01.catppuccin-theme)
 
-### Spotify
-```bash
-Later
-```
+### Spotify (Using Spicetify)
+[Check here](https://github.com/catppuccin/spicetify)
+
