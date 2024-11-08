@@ -1,6 +1,8 @@
 # Mein Dotfiles
+
 This repository contains my Arch GNOME desktop configuration files, themes and icons I use ;3
-<img src="./screenshot.png" alt="Description" width="500"/>
+
+<img src="./screenshot.png" alt="Description" width="1920"/>
 
 ## Contents
 
