@@ -21,23 +21,33 @@ cd gnome-dotfiles
 ```
 
 ### 2. Restore GNOME Settings
-
 ```bash
 dconf load / < gnome-settings.dconf
 ```
 
 ### 3. Export GNOME Shell Extensions
-
 ```bash
 gnome-extensions list > gnome-extensions.txt
 ```
 
-### 4. Copy/Move themes, icons, and fonts to,
-themes to ~/.themes Or /usr/share/themes
-icons to ~/.icons Or /usr/share/icons
-fonts to ~/.fonts Or /usr/share/fonts
-
-### 5. Copy/Move key configuration files to,
+### 3. Install GNOME Extensions
+To install GNOME Shell extensions, you can loop through gnome-extensions.txt:
 ```bash
-~/.config/gtk-4.0/
+while IFS= read -r extension; do
+    gnome-extensions install "$extension"
+done < gnome-extensions.txt
+```
+
+### 4. Restore GNOME Terminal Profiles
+```bash
+dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
+```
+
+### 5. Copy Themes, Icons, and Configurations
+```bash
+cp -r .themes ~/
+cp -r .icons ~/
+cp -r .config/gtk-3.0 ~/.config/
+cp -r .config/gtk-4.0 ~/.config/
+cp -r .config/gnome-shell ~/.config/
 ```
