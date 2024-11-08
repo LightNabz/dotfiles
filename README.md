@@ -1,6 +1,6 @@
-l# GNOME Dotfiles
+# GNOME Dotfiles
 
-This repository contains my GNOME desktop configuration files.
+This repository contains my Arch GNOME desktop configuration files, themes and icons I use ;3
 
 ## Contents
 
@@ -50,4 +50,21 @@ cp -r .icons ~/
 cp -r .config/gtk-3.0 ~/.config/
 cp -r .config/gtk-4.0 ~/.config/
 cp -r .config/gnome-shell ~/.config/
+```
+
+## Additional
+
+### Wallpaper
+```bash
+Later
+```
+
+### VS Code
+```bash
+Later
+```
+
+### Spotify
+```bash
+Later
 ```
