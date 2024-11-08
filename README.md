@@ -16,7 +16,7 @@ This repository contains my GNOME desktop configuration files.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/gnome-dotfiles.git
+git clone https://github.com/LightNabz/dotfiles.git
 cd gnome-dotfiles
 ```
 
