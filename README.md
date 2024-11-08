@@ -1,4 +1,4 @@
-# GNOME Dotfiles
+# Mein Dotfiles
 
 This repository contains my Arch GNOME desktop configuration files, themes and icons I use ;3
 
