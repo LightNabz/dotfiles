@@ -47,17 +47,18 @@ dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
 
 ### 5. Copy Themes, Icons, and Configurations
 ```bash
-cp -r .themes ~/
-cp -r .icons ~/
-cp -r .config/gtk-3.0 ~/.config/
-cp -r .config/gtk-4.0 ~/.config/
-cp -r .config/gnome-shell ~/.config/
+cp -r themes ~/
+cp -r icons ~/
+cp -r config/gtk-3.0 ~/.config/
+cp -r config/gtk-4.0 ~/.config/
+cp -r config/gnome-shell ~/.config/
 ```
 
 ## Additional
 
 ### Wallpaper
 [Background](./backgrounds)
+<img src="./backgrounds/evening-sky.png" alt="Description" width="1920"/>
 
 ### VS Code
 [Check here](https://marketplace.visualstudio.com/items?itemName=Siris01.catppuccin-theme)
